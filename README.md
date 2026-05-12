@@ -11,4 +11,4 @@ Principais seções
 - **Contato**: e-mail e links profissionais (GitHub, LinkedIn).
 
 Acesse:
-
+https://fatec-sjc-dsm-portfolio.github.io/ra1461392321035/
