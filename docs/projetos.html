@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <title>Projetos - Juan Garcia</title>
+</head>
+<body style="background-color: #131c41; color: rgb(255, 255, 255);">
+    <header class="navbar">
+        <nav class="navbar navbar-expand-lg fixed-top shadow-lg p-3 mb-5" data-bs-theme="dark" style="background-color: #2f376679">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img class="navbar__logo" src="images/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+                <ul class="navbar-nav gap-3">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white titulo_navbar" aria-current="page" href="index.html">PORTFÓLIO</a>
+                  </li>
+                  <div class="d-none d-lg-block d-flex m-auto" style="color: #FFF; font-size: 1vh; padding-left: 3vh; padding-right: 3vh;">|</div>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white titulo_navbar" href="projetos.html">PROJETOS</a>
+                  </li>
+                  <div class="d-none d-lg-block d-flex m-auto" style="color: #FFF; font-size: 1vh; padding-left: 3vh; padding-right: 3vh;">|</div>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white titulo_navbar" href="sobre_mim.html">SOBRE MIM</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="espaçoproj"></div>
+
+        <div class="min_width">
+            <h1 class="titulo">Projetos Acadêmicos</h1>
+        </div>
+
+        <div class="min_width">
+            <div class="projetos-preview-grid">
+                <!-- Projeto 1 -->
+                <div class="projeto-card" 
+                     data-titulo="1º API | Rim do Amor"
+                     data-imagem="images/api.png"
+                     data-semestre="Participei no projeto chamado Rim do Amor juntamente com minha equipe da faculdade. O objetivo era criar um site dedicado a mães com filhos diagnosticados com insuficiência renal crônica, fornecendo informações e suporte relacionados à doença. Durante esse semestre, utilizamos Python Flask para o backend e HTML & CSS para o frontend, aplicando boas práticas de desenvolvimento para entregar uma solução funcional e acessível."
+                     data-tecnologias="Plataforma de Interação, Analytics"
+                     data-contribuicoes="Dentro do projeto, minha maior contribuição foi no desenvolvimento do frontend, criando interfaces acessíveis e conectando-as ao backend. Trabalhar com minha equipe proporcionou um ambiente colaborativo, mas com desafios que ajudaram no meu aprendizado. Hoje, essa experiência me incentiva a aprimorar habilidades como agilidade e proatividade em projetos futuros."
+                     data-hard="Python, Flask, HTML, CSS, MySQL, Git"
+                     data-soft="Proatividade e Comunicação. Além disso, desenvolvi habilidades como trabalho em equipe e organização para cumprir os prazos e garantir uma entrega eficiente."
+                     data-link="https://github.com/Daiene/Pixels"
+                     onclick="openProjectModal(this)"
+                     style="cursor: pointer;">
+                    <div class="projeto-card-image">
+                        <img src="images/api.png" alt="Imagem do projeto Rim do Amor">
+                    </div>
+                    <div class="projeto-card-content">
+                        <h3 class="projeto-card-semestre">2023-2</h3>
+                        <h2 class="projeto-card-title">1º API | Rim do Amor</h2>
+                        <p class="projeto-card-cta">Clique para ver detalhes →</p>
+                    </div>
+                </div>
+                <!-- Projeto 2 -->
+                <div class="projeto-card" 
+                     data-titulo="2º API | Internet Ocean"
+                     data-imagem="images/api2s.png"
+                     data-semestre="Participei no projeto da API chamado Internet Ocean juntamente com minha equipe da faculdade. Nesse projeto, o objetivo era realizar o gerenciamente de chaamdos de forma otimizada, para gestão de demandas no atendimento ao cliente. Durante esse semestre, exploramos como a utilização de frameworks Front-end modernos, como Bootstrap, aliados às boas práticas de orientação a objetos, poderiam otimizar a experiência do usuário e a eficiência operacional. A integração eficiente das tecnologias envolvidas provou ser essencial para atender às demandas do mercado atual."
+                     data-tecnologias="Plataforma de Interaçãos, Analytics"
+                     data-contribuicoes="Dentro do projeto, minha maior contribuição foi na criação e estruturação do Frontend, desenvolvendo interfaces intuitivas e garantindo a integração funcional com o Backend. Dentro do grupo, tivemos uma relação amigável e as tarefas eram feitas de forma rápida. Não era uma equipe ágil, entretanto, serviu de aprendizado para meu crescimento hoje em dia, para melhorar em proatividade e agilidade nos projetos."
+                     data-hard="Typescript, Javascript, Bootstrap, Node.js, React, Git."
+                     data-soft="Proatividade e Autonomia. Ainda assim, aprimorei minhas habilidades de trabalho em equipe e gerenciamento de tempo para cumprir os prazos do projeto."
+                     data-link="https://github.com/CoddingWarriors/Api_CoddingWarriors"
+                     onclick="openProjectModal(this)"
+                     style="cursor: pointer;">
+                    <div class="projeto-card-image">
+                        <img src="images/api2s.png" alt="Imagem do projeto Internet Ocean">
+                    </div>
+                    <div class="projeto-card-content">
+                        <h3 class="projeto-card-semestre">2024-1</h3>
+                        <h2 class="projeto-card-title">2º API | Internet Ocean</h2>
+                        <p class="projeto-card-cta">Clique para ver detalhes →</p>
+                    </div>
+                </div>
+                <!-- Projeto 3 -->
+                <div class="projeto-card" 
+                     data-titulo="3º API | Portal Transparencia FAPG"
+                     data-imagem="images/api3ss.png"
+                     data-semestre="Participei do projeto da API Portal da Transparência FAPG, desenvolvido com minha equipe na faculdade. O objetivo foi facilitar a gestão e consulta de informações sobre projetos da fundação, promovendo transparência e acessibilidade. O sistema incluiu funcionalidades como cadastro e edição de projetos, filtros avançados por data, controle administrativo e módulos para gerenciamento de administradores, bolsistas, convênios e materiais. Durante o projeto, enfrentamos problemas com a formação dos grupos, exigindo mudanças drásticas nos membros, o que me forçou a melhorar minha interação em equipe e, consequentemente, minha entrega de resultados."
+                     data-tecnologias="Plataforma de Interação, Analytics"
+                     data-contribuicoes="Contribuí de forma significativa no backend, implementando filtros, histórico do sistema e atendendo demandas críticas, além de corrigir aspectos do frontend. Fui mais proativo, ágil e eficiente em relação a projetos anteriores."
+                     data-hard="Java, TypeScript, JavaScript, MySQL, Tailwind, Bootstrap, Spring Boot"
+                     data-soft="Proatividade, Agilidade, Colaboração e Entrega de Resultado. Esse projeto foi fundamental para consolidar minha capacidade de entrega, mentalidade profissional e colaboração em equipe."
+                     data-link="https://github.com/A-Sync-Fatec/api-fatec-3sem-24"
+                     onclick="openProjectModal(this)"
+                     style="cursor: pointer;">
+                    <div class="projeto-card-image">
+                        <img src="images/api3ss.png" alt="Imagem do projeto Portal Transparencia FAPG">
+                    </div>
+                    <div class="projeto-card-content">
+                        <h3 class="projeto-card-semestre">2024-2</h3>
+                        <h2 class="projeto-card-title">3º API | Portal Transparencia FAPG</h2>
+                        <p class="projeto-card-cta">Clique para ver detalhes →</p>
+                    </div>
+                </div>
+                <!-- Projeto 4 -->
+                <div class="projeto-card" 
+                     data-titulo="4º API | Sistema IoT de Monitoramento Meteorológico"
+                     data-imagem="images/api4.png"
+                     data-semestre="Participei do desenvolvimento de uma solução IoT em parceria com a empresa Tecsus. O sistema foi projetado para o monitoramento climático, realizando a coleta de dados via estações meteorológicas e transmitindo-os para um servidor central. O foco foi criar um portal educativo e funcional que processa essas informações, gera alertas de condições críticas e promove a conscientização ambiental através da visualização de dados em tempo real."
+                     data-tecnologias="IoT, Plataforma de Interação, Analytics"
+                     data-contribuicoes="Minha atuação principal foi no Backend utilizando Python e FastAPI. Fui responsável pela implementação completa da segurança (Autenticação e Autorização com JWT e hash de senhas) e pelo desenvolvimento dos CRUDs de parametrização do sistema. Além disso, atuei fortemente na organização do projeto (DevOps), gerenciando a rastreabilidade de requisitos e tarefas através do Jira."
+                     data-hard="Python, FastAPI, PostgreSQL, IoT (Arduino), JWT, Jira, Git"
+                     data-soft="Organização e Planejamento. O uso intenso do Jira para rastreabilidade exigiu disciplina, e a implementação de segurança demandou atenção minuciosa aos detalhes e responsabilidade técnica."
+                     data-link="https://github.com/TeamHiveAPI/API-2025.01"
+                     onclick="openProjectModal(this)"
+                     style="cursor: pointer;">
+                    <div class="projeto-card-image">
+                        <img src="images/api4.png" alt="Imagem do projeto Sistema IoT">
+                    </div>
+                    <div class="projeto-card-content">
+                        <h3 class="projeto-card-semestre">2025-1</h3>
+                        <h2 class="projeto-card-title">4º API | Sistema IoT de Monitoramento Meteorológico</h2>
+                        <p class="projeto-card-cta">Clique para ver detalhes →</p>
+                    </div>
+                </div>
+                <!-- Projeto 5 -->
+                <div class="projeto-card" 
+                     data-titulo="5º API | Aplicativo militar de controle logístico setorial de ativos"
+                     data-imagem="images/militar_app.png"
+                     data-semestre="Participei do projeto da 5ª API, cujo objetivo foi desenvolver um aplicativo mobile para gestão do almoxarifado militar. O desafio central era substituir um processo burocrático, manual e sujeito a erros por uma solução moderna, rápida e segura. O sistema deveria permitir o cadastro de materiais, atualização de estoque, leitura via QR Code e uma interface simples e responsiva, acessível tanto em smartphones quanto em tablets. Esse projeto ampliou minha visão sobre boas práticas de desenvolvimento mobile e organização de processos logísticos."
+                     data-tecnologias="Plataforma de Interação, Analytics"
+                     data-contribuicoes="Minhas principais contribuições foram no desenvolvimento de funcionalidades essenciais, como o envio automático de e-mails, o registro de pedidos com múltiplos itens do estoque e a integração das operações de cadastro e movimentação dos materiais. Também participei na construção de telas e lógica interna que garantem uma experiência fluida e organizada para o usuário final."
+                     data-hard="Flutter, Supabase, Node.js, Python, Figma, Trello"
+                     data-soft="Proatividade, Comunicação, Colaboração, Organização."
+                     data-link="https://github.com/TeamHiveAPI/API-2025.02"
+                     onclick="openProjectModal(this)"
+                     style="cursor: pointer;">
+                    <div class="projeto-card-image">
+                        <img src="images/militar_app.png" alt="Imagem do projeto App Militar">
+                    </div>
+                    <div class="projeto-card-content">
+                        <h3 class="projeto-card-semestre">2025-2</h3>
+                        <h2 class="projeto-card-title">5º API | Aplicativo militar de controle logístico setorial de ativos</h2>
+                        <p class="projeto-card-cta">Clique para ver detalhes →</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="min_width">
+            <h1 class="titulo">Projetos Pessoais</h1>
+        </div>
+
+        <div class="min_width">
+            <div class="projetos-grid">
+                <div class="proj_content">
+                    <div class="center-img">
+                        <img class="img_proj" src="images/pessoal.png" alt="Imagem do projeto Portfólio">
+                    </div>
+                    <div class="text_content">
+                        <h1 class="texto1proj">Portfólio Pessoal</h1>
+                        <h2 class="texto2">O Portfólio desenvolvido contém uma coleção de trabalhos, projetos e realizações da minha pessoa. Tem o intuito principal de destacar e apresentar de forma abrangente meu conjunto de habilidades, experiências e competências.</h2>
+                        <h2 class="texto2">Foram utilizadas as Tecnologias: HTML & CSS, Python, Flask e Git.</h2>
+                        <br>
+                        <a href="https://github.com/ojuansoares/portifolio_digital_dsm" target="_blank"><h2 class="texto2">Link do Repositório no GitHub</h2></a>
+                    </div>
+                </div>
+                <div class="proj_content">
+                    <div class="center-img">
+                        <img class="img_proj" src="images/cursoviolao.png" alt="Imagem do projeto Curso de Violão">
+                    </div>
+                    <div class="text_content">
+                        <h1 class="texto1proj">Curso de Violão</h1>
+                        <h2 class="texto2">Este projeto foi feito com o intuito de compartilhar o curso de violão do meu pai. O site contém informações sobre o curso e o professor do mesmo, visualização do endereço pelo Google Maps e uma funcionalidade de enviar um e-mail automaticamente para o professor do curso através do próprio site.</h2>
+                        <h2 class="texto2">Foram utilizadas as Tecnologias: HTML & CSS, Python, Flask e Git.</h2>
+                        <br>
+                            <a href="https://github.com/ojuansoares/curso-violao" target="_blank"><h2 class="texto2">Link do Repositório no GitHub</h2></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div id="projectModal" class="project-modal">
+            <div class="project-modal-content">
+                <span class="project-modal-close" onclick="closeProjectModal()">&times;</span>
+                <div class="project-modal-body">
+                    <img id="modalImage" class="project-modal-image" src="" alt="Project image">
+                    <h1 id="modalTitle" class="project-modal-title"></h1>
+                    <div class="project-modal-details">
+                        <div class="project-modal-section">
+                            <h3 class="text-cyan-400">Semestre</h3>
+                            <p id="modalSemestre" class="texto2"></p>
+                        </div>
+                        <div class="project-modal-section">
+                            <h3 class="text-cyan-400">Tecnologias</h3>
+                            <p id="modalTecnologias" class="texto2"></p>
+                        </div>
+                        <div class="project-modal-section">
+                            <h3 class="text-cyan-400">Contribuições Pessoais</h3>
+                            <p id="modalContribuicoes" class="texto2"></p>
+                        </div>
+                        <div class="project-modal-section">
+                            <h3 class="text-cyan-400">Hard Skills</h3>
+                            <p id="modalHard" class="texto2"></p>
+                        </div>
+                        <div class="project-modal-section">
+                            <h3 class="text-cyan-400">Soft Skills</h3>
+                            <p id="modalSoft" class="texto2"></p>
+                        </div>
+                        <a id="modalLink" href="" target="_blank" class="project-modal-link">
+                            Ver Repositório no GitHub →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+        // Esta função recebe o ELEMENTO HTML (div) clicado, não um objeto JSON
+        function openProjectModal(element) {
+            // Pegamos os dados diretamente dos atributos data-* do HTML
+            const titulo = element.getAttribute('data-titulo');
+            const imagem = element.getAttribute('data-imagem');
+            const semestre = element.getAttribute('data-semestre');
+            const tecnologias = element.getAttribute('data-tecnologias');
+            const contribuicoes = element.getAttribute('data-contribuicoes');
+            const hard = element.getAttribute('data-hard');
+            const soft = element.getAttribute('data-soft');
+            const link = element.getAttribute('data-link');
+            
+            // Atualizamos o DOM do modal
+            document.getElementById('modalTitle').textContent = titulo;
+            document.getElementById('modalImage').src = imagem;
+            document.getElementById('modalSemestre').textContent = semestre;
+            document.getElementById('modalTecnologias').textContent = tecnologias;
+            document.getElementById('modalContribuicoes').textContent = contribuicoes;
+            document.getElementById('modalHard').textContent = hard;
+            document.getElementById('modalSoft').textContent = soft;
+            document.getElementById('modalLink').href = link;
+            
+            // Mostra o modal
+            const modal = document.getElementById('projectModal');
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeProjectModal() {
+            const modal = document.getElementById('projectModal');
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Fechar clicando fora
+        window.onclick = function(event) {
+            const modal = document.getElementById('projectModal');
+            if (event.target === modal) {
+                closeProjectModal();
+            }
+        }
+
+        // Fechar com ESC
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeProjectModal();
+            }
+        });
+        </script>
+    </main>
+    <footer class="text-light py-3 texto2" style="margin-top: 30px">
+      <div class="container text-center">
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    
+    </body>
+</html>
