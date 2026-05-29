@@ -206,6 +206,10 @@ body {
   transition: transform 0.3s ease;
 }
 
+.center-img {
+  margin-bottom: 1.5rem;
+}
+
 .card-galeria {
   display: flex;
   gap: 0.5rem;
