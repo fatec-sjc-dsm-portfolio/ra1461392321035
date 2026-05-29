@@ -11,7 +11,7 @@
     <link rel="icon" href="images/logo.png" type="image/x-icon">
     <title>Projetos - Juan Garcia</title>
 </head>
-<body style="background-color: #131c41; color: rgb(255, 255, 255);">
+<body style="color: rgb(255, 255, 255);">
     <header class="navbar">
         <nav class="navbar navbar-expand-lg fixed-top shadow-lg p-3 mb-5" data-bs-theme="dark" style="background-color: #2f376679">
             <div class="container-fluid">
@@ -153,6 +153,27 @@
                         <p class="projeto-card-cta">Clique para ver detalhes →</p>
                     </div>
                 </div>
+                <!-- Projeto 6 -->
+                <div class="projeto-card"
+                     data-titulo="6º API | Plataforma de Análise ASG"
+                     data-imagem="images/api6s.png"
+                     data-semestre="Participei do desenvolvimento de uma plataforma web para análise de aspectos Ambientais, Sociais e de Governança (ASG) de propriedades rurais do Estado de São Paulo. O sistema utiliza dados públicos integrados de diferentes fontes oficiais (INPE, FUNAI, ICMBio, Palmares, SICAR) para cruzar informações geoespaciais, identificar passivos ambientais como desmatamento e queimadas, e permitir consultas via linguagem natural com respostas rastreáveis. Além disso, a plataforma calcula uma nota de risco socioambiental e disponibiliza camadas geoespaciais para exportação no QGIS."
+                     data-tecnologias="Análise Geoespacial, ASG, Analytics"
+                     data-contribuicoes="Minhas principais contribuições foram no backend, desenvolvendo validações adicionais e checagem de e-mail duplicado no endpoint de edição de usuário, e no frontend, integrando o modal de edição de usuário com a API e implementando validação de formulário com feedback visual."
+                     data-hard="Python, FastAPI, Next.js, TypeScript, PostgreSQL, Supabase, Docker, AWS ECS, Git"
+                     data-soft="Organização, Trabalho em Equipe, Proatividade, Resolução de Problemas"
+                     data-link="https://github.com/Sync-FATEC/API-2026-6SEM"
+                     onclick="openProjectModal(this)"
+                     style="cursor: pointer;">
+                    <div class="projeto-card-image">
+                        <img src="images/api6s.png" alt="Imagem do projeto Plataforma ASG" style="object-position: left;">
+                    </div>
+                    <div class="projeto-card-content">
+                        <h3 class="projeto-card-semestre">2026-1</h3>
+                        <h2 class="projeto-card-title">6º API | Plataforma de Análise ASG</h2>
+                        <p class="projeto-card-cta">Clique para ver detalhes →</p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -162,29 +183,70 @@
 
         <div class="min_width">
             <div class="projetos-grid">
-                <div class="proj_content">
-                    <div class="center-img">
-                        <img class="img_proj" src="images/pessoal.png" alt="Imagem do projeto Portfólio">
+                <div class="proj_content"
+                     data-type="personal"
+                     data-titulo="PetLink"
+                     data-imagem="images/1pet.jpeg"
+                     data-galeria="images/1pet.jpeg,images/2pet.jpeg,images/3pet.jpeg"
+                     data-semestre="PetLink é um aplicativo mobile completo desenvolvido como projeto acadêmico de conclusão de semestre. Ele combina ferramentas de gestão de saúde animal — vacinas com alertas de dose, consultas veterinárias, lembretes de medicação e histórico de peso com gráficos — com funcionalidades de rede social (feed, curtidas, comentários e grupos), monitoramento de passeios via GPS em background e mapa de locais pet-friendly. O projeto utiliza arquitetura full-stack moderna com React Native (Expo) no frontend, Node.js (Express) como BFF e banco de dados híbrido com PostgreSQL (Supabase) e MongoDB."
+                     data-tecnologias="TypeScript, React Native (Expo), Redux Toolkit, WatermelonDB, Node.js, Express, Supabase (PostgreSQL), MongoDB Atlas, Cloudinary, Firebase Cloud Messaging"
+                     data-contribuicoes="Desenvolvi toda a arquitetura do projeto, do setup inicial ao deploy. Implementei autenticação com JWT e biometria, projetei o banco híbrido (PostgreSQL + MongoDB), e integrei funcionalidades nativas como GPS em background, acelerômetro, dark mode automático por sensor de luz e notificações push."
+                     data-hard="React Native, TypeScript, Node.js, Express, PostgreSQL, MongoDB, Redux Toolkit, JWT, GPS, WatermelonDB, Cloudinary, Firebase"
+                     data-soft="Arquitetura de Software, Organização, Proatividade, Resolução de Problemas, Autonomia"
+                     data-link="https://github.com/ojuansoares/petlink"
+                     onclick="openProjectModal(this)"
+                     style="cursor: pointer;">
+                    <div class="card-galeria">
+                        <div class="card-galeria-item"><img class="img_proj" src="images/1pet.jpeg" alt="Print 1"></div>
+                        <div class="card-galeria-item"><img class="img_proj" src="images/2pet.jpeg" alt="Print 2"></div>
+                        <div class="card-galeria-item"><img class="img_proj" src="images/3pet.jpeg" alt="Print 3"></div>
                     </div>
                     <div class="text_content">
-                        <h1 class="texto1proj">Portfólio Pessoal</h1>
-                        <h2 class="texto2">O Portfólio desenvolvido contém uma coleção de trabalhos, projetos e realizações da minha pessoa. Tem o intuito principal de destacar e apresentar de forma abrangente meu conjunto de habilidades, experiências e competências.</h2>
-                        <h2 class="texto2">Foram utilizadas as Tecnologias: HTML & CSS, Python, Flask e Git.</h2>
-                        <br>
-                        <a href="https://github.com/ojuansoares/portifolio_digital_dsm" target="_blank"><h2 class="texto2">Link do Repositório no GitHub</h2></a>
+                        <h1 class="texto1proj">PetLink</h1>
+                        <h2 class="texto2">App mobile para gestão de saúde animal com rede social, GPS e mapa pet-friendly.</h2>
+                        <p class="projeto-card-cta">Clique para ver detalhes →</p>
                     </div>
                 </div>
-                <div class="proj_content">
+                <div class="proj_content"
+                     data-type="personal"
+                     data-titulo="Dolce Vitta"
+                     data-imagem="images/dolcevitta.png"
+                     data-semestre="Dolce Vitta é um sistema fullstack completo para gerenciamento de confeitaria artesanal. O sistema conta com área administrativa protegida por autenticação Supabase, onde é possível realizar CRUD completo de produtos e categorias, além de visualizar o histórico de pedidos. A vitrine interativa para os clientes exibe os produtos organizados por categorias, com carrinho de compras e finalização integrada via WhatsApp. O deploy foi automatizado na Vercel com arquitetura serverless."
+                     data-tecnologias="React 18, TypeScript, Vite, React Router, Python 3.11, FastAPI, Supabase (Auth + PostgreSQL), Tailwind CSS, Vercel"
+                     data-contribuicoes="Desenvolvi o projeto completo do design à produção. Implementei o frontend em React com TypeScript e Vite, construí a API em Python com FastAPI em arquitetura serverless, configurei o banco PostgreSQL no Supabase com RLS e orchestrei o deploy automatizado na Vercel."
+                     data-hard="React, TypeScript, Vite, Python, FastAPI, Supabase, PostgreSQL, Tailwind CSS, Vercel, Serverless"
+                     data-soft="Planejamento, Autonomia, Organização, Entrega de Resultado, Visão de Produto"
+                     data-link="https://github.com/ojuansoares/dolce-vitta"
+                     onclick="openProjectModal(this)"
+                     style="cursor: pointer;">
+                    <div class="center-img">
+                        <img class="img_proj" src="images/dolcevitta.png" alt="Imagem do projeto Dolce Vitta">
+                    </div>
+                    <div class="text_content">
+                        <h1 class="texto1proj">Dolce Vitta</h1>
+                        <h2 class="texto2">Sistema fullstack para gerenciamento de confeitaria artesanal com vitrine e pedidos via WhatsApp.</h2>
+                        <p class="projeto-card-cta">Clique para ver detalhes →</p>
+                    </div>
+                </div>
+                <div class="proj_content"
+                     data-type="personal"
+                     data-titulo="Curso de Violão"
+                     data-imagem="images/cursoviolao.png"
+                     data-semestre="Este projeto foi desenvolvido para criar uma presença digital para o curso de violão do meu pai. O site conta com informações detalhadas sobre o curso e o professor, visualização da localização via Google Maps integrado, e uma funcionalidade que permite aos visitantes enviar um e-mail diretamente para o professor através do próprio site, facilitando o primeiro contato e a matrícula de novos alunos."
+                     data-tecnologias="HTML5, CSS3, Python, Flask, Google Maps API"
+                     data-contribuicoes="Desenvolvi o projeto do zero, incluindo design responsivo, integração com a API do Google Maps para exibição da localização, e implementação do sistema de envio de e-mails automáticos utilizando Flask no backend."
+                     data-hard="HTML, CSS, Python, Flask, Google Maps API, SMTP"
+                     data-soft="Criatividade, Atenção aos Detalhes, Proatividade, Empreendedorismo"
+                     data-link="https://github.com/ojuansoares/curso-violao"
+                     onclick="openProjectModal(this)"
+                     style="cursor: pointer;">
                     <div class="center-img">
                         <img class="img_proj" src="images/cursoviolao.png" alt="Imagem do projeto Curso de Violão">
                     </div>
                     <div class="text_content">
                         <h1 class="texto1proj">Curso de Violão</h1>
-                        <h2 class="texto2">Este projeto foi feito com o intuito de compartilhar o curso de violão do meu pai. O site contém informações sobre o curso e o professor do mesmo, visualização do endereço pelo Google Maps e uma funcionalidade de enviar um e-mail automaticamente para o professor do curso através do próprio site.</h2>
-                        <h2 class="texto2">Foram utilizadas as Tecnologias: HTML & CSS, Python, Flask e Git.</h2>
-                        <br>
-                            <a href="https://github.com/ojuansoares/curso-violao" target="_blank"><h2 class="texto2">Link do Repositório no GitHub</h2></a>
-                        </div>
+                        <h2 class="texto2">Site para divulgação do curso de violão com integração Google Maps e e-mail automático.</h2>
+                        <p class="projeto-card-cta">Clique para ver detalhes →</p>
                     </div>
                 </div>
             </div>
@@ -193,19 +255,20 @@
             <div class="project-modal-content">
                 <span class="project-modal-close" onclick="closeProjectModal()">&times;</span>
                 <div class="project-modal-body">
-                    <img id="modalImage" class="project-modal-image" src="" alt="Project image">
+                    <img id="modalImage" class="project-modal-image" src="" alt="Project image" style="display: none;">
+                    <div id="modalGaleria" class="modal-galeria" style="display: none;"></div>
                     <h1 id="modalTitle" class="project-modal-title"></h1>
                     <div class="project-modal-details">
                         <div class="project-modal-section">
-                            <h3 class="text-cyan-400">Semestre</h3>
-                            <p id="modalSemestre" class="texto2"></p>
+                            <h3 id="modalLabelDescricao" class="text-cyan-400">Semestre</h3>
+                            <p id="modalDescricao" class="texto2"></p>
                         </div>
                         <div class="project-modal-section">
                             <h3 class="text-cyan-400">Tecnologias</h3>
                             <p id="modalTecnologias" class="texto2"></p>
                         </div>
                         <div class="project-modal-section">
-                            <h3 class="text-cyan-400">Contribuições Pessoais</h3>
+                            <h3 id="modalLabelContrib" class="text-cyan-400">Contribuições Pessoais</h3>
                             <p id="modalContribuicoes" class="texto2"></p>
                         </div>
                         <div class="project-modal-section">
@@ -227,27 +290,49 @@
         <script>
         // Esta função recebe o ELEMENTO HTML (div) clicado, não um objeto JSON
         function openProjectModal(element) {
-            // Pegamos os dados diretamente dos atributos data-* do HTML
+            const type = element.getAttribute('data-type') || 'academic';
             const titulo = element.getAttribute('data-titulo');
             const imagem = element.getAttribute('data-imagem');
-            const semestre = element.getAttribute('data-semestre');
+            const galeria = element.getAttribute('data-galeria');
+            const descricao = element.getAttribute('data-semestre');
             const tecnologias = element.getAttribute('data-tecnologias');
             const contribuicoes = element.getAttribute('data-contribuicoes');
             const hard = element.getAttribute('data-hard');
             const soft = element.getAttribute('data-soft');
             const link = element.getAttribute('data-link');
             
-            // Atualizamos o DOM do modal
+            if (type === 'personal') {
+                document.getElementById('modalLabelDescricao').textContent = 'Descrição';
+                document.getElementById('modalLabelContrib').textContent = 'Destaques';
+            } else {
+                document.getElementById('modalLabelDescricao').textContent = 'Semestre';
+                document.getElementById('modalLabelContrib').textContent = 'Contribuições Pessoais';
+            }
+            
             document.getElementById('modalTitle').textContent = titulo;
-            document.getElementById('modalImage').src = imagem;
-            document.getElementById('modalSemestre').textContent = semestre;
+            document.getElementById('modalDescricao').textContent = descricao;
             document.getElementById('modalTecnologias').textContent = tecnologias;
             document.getElementById('modalContribuicoes').textContent = contribuicoes;
             document.getElementById('modalHard').textContent = hard;
             document.getElementById('modalSoft').textContent = soft;
             document.getElementById('modalLink').href = link;
             
-            // Mostra o modal
+            const imgEl = document.getElementById('modalImage');
+            const galeriaEl = document.getElementById('modalGaleria');
+            
+            if (galeria) {
+                imgEl.style.display = 'none';
+                const imagens = galeria.split(',');
+                galeriaEl.innerHTML = imagens.map(src =>
+                    '<div class="galeria-item"><img src="' + src.trim() + '" alt="Print" class="galeria-img"></div>'
+                ).join('');
+                galeriaEl.style.display = 'flex';
+            } else {
+                galeriaEl.style.display = 'none';
+                imgEl.src = imagem;
+                imgEl.style.display = 'block';
+            }
+            
             const modal = document.getElementById('projectModal');
             modal.style.display = 'flex';
             document.body.style.overflow = 'hidden';
